@@ -1,6 +1,6 @@
 import fetch from '../utils/fetch'
 import { http } from './enterprise'
-
+// 用户模块接口
 export function getUserInfo (param) {
   return fetch({
     url: http.prefix + '/user/info/getinfo',
